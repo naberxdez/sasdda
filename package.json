@@ -1,0 +1,32 @@
+{
+  "//1": "Developed by Chârby",
+  "//2": "Daha fazlası için glitch.com/@charby",
+  "//3": "updating this file will download and update your packages",
+  "name": "YnsEmreArpacii",
+  "version": "0.0.1",
+  "description": "Glitch Discord Botu.",
+  "main": "loz.js",
+  "scripts": {
+    "start": "node loz.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "discord-buttons": "^4.0.0-deprecated",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "moment": "^2.24.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

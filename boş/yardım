@@ -1,0 +1,38 @@
+const Discord = require('discord.js');
+exports.run = (client, message, args) => {
+    message.delete();
+ 
+  
+  const embed = new Discord.MessageEmbed()
+.setDescription(`
+ **GENEL KOMUTLAR** 
+[+] -ses-kanal-aç <- Ses Kanalı Açar.
+[+] -çekilişyap <- Çekiliş Yapar.
+[+] -temizle (sayı) <- Chati Siler.
+[+] -dmduyuru <- Dm Duyuru Atar.
+[+] -yapımcım <- Yapımcımı Gösterir.
+
+ **Eğlence Komutları** 
+[+] -wwegif        <- WWE Gif Atar.
+[+] -yazı-tura     <- Yazı Tura Oynar.
+[+] -stresçarkı     <- Stres Çarkı Çevirir.
+[+] -espri          <- Espri Yapar. 
+[+] -avatar         <- Avatarını Gösterir.
+[+] -kraol          <- Kral Olursun. 
+`,true);
+  
+   message.channel.send(embed);
+};
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: ["b"],
+  permlevel: 4
+};
+
+exports.help = {
+  name: 'yardım',
+  description: 'Yardım.',
+  usage: 'yardım'
+};
